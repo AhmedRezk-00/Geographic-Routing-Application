@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [02/May/2022:13:22:14 +0200] "GET /Planner/ HTTP/1.1" 200 7640
+0:0:0:0:0:0:0:1 - - [02/May/2022:13:23:35 +0200] "GET /Planner/init?path=/home/rezk/Documents/Programmierprojekt/Phase_1_Backend/germany HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [02/May/2022:13:23:43 +0200] "GET /Planner/findnode?lon=8.393554687500002&lat=57.70414723434193 HTTP/1.1" 200 40
+0:0:0:0:0:0:0:1 - - [02/May/2022:13:23:48 +0200] "GET /Planner/findnode?lon=14.699707031250002&lat=38.90813299596705 HTTP/1.1" 200 45
+0:0:0:0:0:0:0:1 - - [02/May/2022:13:24:00 +0200] "GET /Planner/shortestpath?source=25115476&target=109390 HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [02/May/2022:13:24:07 +0200] "GET /Planner/shortestpath?source=25115476&target=109390 HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [02/May/2022:13:24:15 +0200] "GET /Planner/findnode?lon=8.635253906250002&lat=54.86396293985479 HTTP/1.1" 200 48
+0:0:0:0:0:0:0:1 - - [02/May/2022:13:24:41 +0200] "GET /Planner/shortestpath?source=25102101&target=109390 HTTP/1.1" 200 408497

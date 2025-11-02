@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Programmierprojekt</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+
+
+ <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+  </head>
+    
+  <body data-new-gr-c-s-check-loaded="14.1041.0" data-gr-ext-installed="" class="vsc-initialized">
+    <div id="map" style="width: 1200px; height: 800px; position: relative; outline: none;" class="leaflet-container leaflet-touch leaflet-retina leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom" tabindex="0">
+      <div class="span9" style="height:100%">
+        <div id="map">
+            <div class="leaflet-bottom leaflet-left">  
+            	<input type="button" id="Load Graph" value="Load Graph" onclick="init()" class="btnStyle span3 leaflet-control" pointer-events: auto/> 
+                <input type="button" id="Select Start" value="Select Start" onclick="start()" class="btnStyle span3 leaflet-control" pointer-events: auto/>               
+                <input type="button" id="Select Destination" value="Select Destination" onclick="end()" class="btnStyle span3 leaflet-control" pointer-events: auto/>
+                <input type="button" id="Navigate" value="Navigate" onclick="find()" class="btnStyle span3 leaflet-control" pointer-events: auto/>
+                <input type="button" id="Clear" value="Clear" onclick="remove()" class="btnStyle span3 leaflet-control" pointer-events: auto/>                
+            </div>
+        </div>   
+    </div>
+    
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+   
+    <script>
+    
+      var map = L.map('map').setView([52.505, 11.09], 7);
+      
+      var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+        maxZoom: 18,
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' + 'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+        id: 'mapbox/streets-v11',
+        tileSize: 512,
+        zoomOffset: -1
+      }).addTo(map);
+      thisLayer = {}    
+     
+      var path = window.prompt("Enter file path: ");
+      function init() { 
+			alert("Graph is being build, please stand by for around one minute...")
+    	  	console.log("Graph is being build, please stand by for around one minute...")
+            $.ajax({
+                url: "init",
+                data: 'path=' + path,                 
+                type: "GET",
+                async: true,
+                success: function (data) {
+                	console.log("done")
+                	alert("done");
+                }
+        		});
+            }
+            
+      
+      var popup = L.popup();
+      
+      var slon = 0;
+      var slat = 0;
+      
+      var sourceNode = 0
+      var thisMarker = {};
+      function start() { 
+    	  
+    		var clickCounter = 0;
+    		
+    		map.on('click',function(d){
+    			clickCounter++;
+    			if (clickCounter == 2) {
+    				
+    					lat = d.latlng.lat;
+    					lon = d.latlng.lng;
+    					//findNearestNode + set lat long again  
+    					$.ajax({
+			                url: "/Planner/findnode",
+			                data: 'lon=' + lon +'&lat=' + lat,                 
+			                type: "GET",
+			                async: true,
+			                success: function (data) {
+			                	 $("#theMarker").text(data);
+			                	 var values = data.split(",")
+			                	 
+			                	 slon = parseFloat(values[0])
+			                	 slat = parseFloat(values[1])
+			                	 sourceNode = parseFloat(values[2])
+			                	 
+			                	 if (theMarker != undefined) {			        	   
+    								map.removeLayer(thisMarker);
+    						
+    							 };
+    							 //Add a marker to show where you clicked.    					
+    							 thisMarker = L.marker([slat,slon]).addTo(map);	
+			                }
+			             
+			            });
+    					
+    					popup
+    						.setLatLng(d.latlng)
+    						.setContent("You clicked the map at " + d.latlng.toString())        
+    						.openOn(map);
+    					console.log("You clicked the map at LAT: "+ lat+" and LONG: "+lon + "closest node" + sourceNode);    					  					
+    				}
+    		});
+    	}
+      
+      var targetNode = 0
+      var theMarker = {};  
+      
+      var tlon = 0;
+      var tlat = 0;
+      function end() { 
+    		
+    		var clickCounter = 0;
+    		
+    		map.on('click',function(e){
+    			clickCounter++;
+    			if (clickCounter == 2) {
+    				
+    					lat = e.latlng.lat;
+    					lon = e.latlng.lng;
+    					
+    					//findNearestNode + set lat long again    
+    					$.ajax({
+			                url: "/Planner/findnode",
+			                data: 'lon=' + lon +'&lat=' + lat,                 
+			                type: "GET",
+			                async: true,
+			                success: function (data) {
+			                	 $("#theMarker").text(data);
+			                	 var values = data.split(",")
+			                	 
+			                	
+			                	 tlon = parseFloat(values[0])
+			                	 tlat = parseFloat(values[1])
+			                	 targetNode = parseFloat(values[2])
+			                	 
+			                	 if (theMarker != undefined) {			        	   
+    								map.removeLayer(theMarker);
+    						
+    							 };
+    							 //Add a marker to show where you clicked.    					
+    							 theMarker = L.marker([tlat,tlon]).addTo(map);	    							 
+			                }
+			             
+			            });
+    					
+    					popup
+    						.setLatLng(e.latlng)
+    						.setContent("You clicked the map at " + e.latlng.toString())        
+    						.openOn(map);
+    					console.log("You clicked the map at LAT: "+ lat+" and LONG: "+lon + "closest node" + targetNode);
+    					
+    				}
+    		});
+    	}
+      	var lines = {}
+      	function find() {
+      		
+      		var clickCounter = 0;
+      		
+      		map.on('click',function(e){
+    			clickCounter++;
+    			if (clickCounter == 1) {
+    				
+    					//findNearestNode + set lat long again    
+    					$.ajax({
+			                url: "/Planner/shortestpath",
+			                data: 'source=' + sourceNode +'&target=' + targetNode,                 
+			                type: "GET",
+			                async: true,
+			                success: function (data) {
+			                	
+			                	//remove old line for each new navigation
+			                	map.removeLayer(lines);
+			                	
+			                	var res = JSON.parse(data);
+			                	
+			                	var myLines = [{
+		    					    "type": "LineString",		    					    
+		    					    "coordinates": res
+		    					}];
+
+		    					var myStyle = {		    					    
+		    					    "weight": 3,
+		    					    "opacity": 0.65
+		    					};
+		    					
+		    					lines = L.geoJSON(myLines, {
+		    					    style: myStyle
+		    					}).addTo(map);			                	
+			                }			             
+			            });
+    				}
+    		});
+      	}
+      
+      	function remove() {
+      		map.removeLayer(lines);
+      		map.removeLayer(theMarker);
+      		map.removeLayer(thisMarker);
+      	
+      	}
+    </script>  
+    
+    </body>
+</html>
+

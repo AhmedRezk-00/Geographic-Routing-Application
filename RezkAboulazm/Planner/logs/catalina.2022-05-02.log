@@ -1,0 +1,107 @@
+02-May-2022 13:22:12.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+02-May-2022 13:22:12.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+02-May-2022 13:22:12.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+02-May-2022 13:22:12.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+02-May-2022 13:22:12.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.13.0-40-generic
+02-May-2022 13:22:12.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+02-May-2022 13:22:12.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-16-openjdk-amd64
+02-May-2022 13:22:12.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           16.0.1+9-Ubuntu-120.04
+02-May-2022 13:22:12.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+02-May-2022 13:22:12.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner
+02-May-2022 13:22:12.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner
+02-May-2022 13:22:12.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+02-May-2022 13:22:12.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+02-May-2022 13:22:12.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+02-May-2022 13:22:12.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+02-May-2022 13:22:12.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+02-May-2022 13:22:12.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner/conf/logging.properties
+02-May-2022 13:22:12.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-May-2022 13:22:12.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx5024m
+02-May-2022 13:22:12.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-May-2022 13:22:12.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+02-May-2022 13:22:12.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+02-May-2022 13:22:12.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+02-May-2022 13:22:12.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner
+02-May-2022 13:22:12.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner
+02-May-2022 13:22:12.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner/temp
+02-May-2022 13:22:12.934 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+02-May-2022 13:22:12.966 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-May-2022 13:22:12.980 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-May-2022 13:22:12.990 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 469 ms
+02-May-2022 13:22:13.022 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+02-May-2022 13:22:13.022 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+02-May-2022 13:22:13.034 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner/webapps/Planner.war]
+02-May-2022 13:22:13.247 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner/webapps/Planner.war] has finished in [213] ms
+02-May-2022 13:22:13.250 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+02-May-2022 13:22:13.257 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 266 ms
+02-May-2022 13:24:00.597 SEVERE [http-nio-8080-exec-6] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Failed to complete processing of a request
+	java.lang.OutOfMemoryError: Java heap space
+		at java.base/java.util.Arrays.copyOf(Arrays.java:3480)
+		at java.base/java.util.ArrayList.grow(ArrayList.java:237)
+		at java.base/java.util.ArrayList.grow(ArrayList.java:244)
+		at java.base/java.util.ArrayList.add(ArrayList.java:454)
+		at java.base/java.util.ArrayList.add(ArrayList.java:467)
+		at app.Dijkstra.oneToOne(Dijkstra.java:201)
+		at app.ShortestPathServlet.doGet(ShortestPathServlet.java:35)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:196)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:624)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+02-May-2022 13:24:07.350 SEVERE [http-nio-8080-exec-7] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Failed to complete processing of a request
+	java.lang.OutOfMemoryError: Java heap space
+		at java.base/java.util.Arrays.copyOf(Arrays.java:3480)
+		at java.base/java.util.ArrayList.grow(ArrayList.java:237)
+		at java.base/java.util.ArrayList.grow(ArrayList.java:244)
+		at java.base/java.util.ArrayList.add(ArrayList.java:454)
+		at java.base/java.util.ArrayList.add(ArrayList.java:467)
+		at app.Dijkstra.oneToOne(Dijkstra.java:201)
+		at app.ShortestPathServlet.doGet(ShortestPathServlet.java:35)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:196)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:624)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+02-May-2022 13:24:56.000 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+02-May-2022 13:24:56.001 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+02-May-2022 13:24:56.007 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+02-May-2022 13:24:56.019 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+02-May-2022 13:24:56.021 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

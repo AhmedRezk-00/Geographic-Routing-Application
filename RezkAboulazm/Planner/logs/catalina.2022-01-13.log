@@ -1,0 +1,1331 @@
+13-Jan-2022 09:32:26.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+13-Jan-2022 09:32:26.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+13-Jan-2022 09:32:26.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+13-Jan-2022 09:32:26.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Jan-2022 09:32:26.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-46-generic
+13-Jan-2022 09:32:26.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Jan-2022 09:32:26.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+13-Jan-2022 09:32:26.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.13+8-Ubuntu-0ubuntu1.20.04
+13-Jan-2022 09:32:26.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+13-Jan-2022 09:32:26.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 09:32:26.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 09:32:26.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Jan-2022 09:32:26.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Jan-2022 09:32:26.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Jan-2022 09:32:26.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Jan-2022 09:32:26.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Jan-2022 09:32:26.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/conf/logging.properties
+13-Jan-2022 09:32:26.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Jan-2022 09:32:26.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Jan-2022 09:32:26.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Jan-2022 09:32:26.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+13-Jan-2022 09:32:26.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Jan-2022 09:32:26.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 09:32:26.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 09:32:26.875 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/temp
+13-Jan-2022 09:32:26.875 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+13-Jan-2022 09:32:26.912 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 09:32:26.927 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Jan-2022 09:32:26.944 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 419 ms
+13-Jan-2022 09:32:27.003 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Jan-2022 09:32:27.003 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+13-Jan-2022 09:32:27.019 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war]
+13-Jan-2022 09:32:27.253 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war] has finished in [233] ms
+13-Jan-2022 09:32:27.254 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/manager]
+13-Jan-2022 09:32:27.281 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/manager] has finished in [27] ms
+13-Jan-2022 09:32:27.281 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/host-manager]
+13-Jan-2022 09:32:27.297 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/host-manager] has finished in [16] ms
+13-Jan-2022 09:32:27.298 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/docs]
+13-Jan-2022 09:32:27.311 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/docs] has finished in [13] ms
+13-Jan-2022 09:32:27.311 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/examples]
+13-Jan-2022 09:32:27.493 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/examples] has finished in [182] ms
+13-Jan-2022 09:32:27.493 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/ROOT]
+13-Jan-2022 09:32:27.509 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/ROOT] has finished in [16] ms
+13-Jan-2022 09:32:27.512 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 09:32:27.518 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 574 ms
+13-Jan-2022 09:35:17.555 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner (1)]
+13-Jan-2022 09:35:17.574 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner (1)] has finished in [19] ms
+13-Jan-2022 09:36:14.777 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+13-Jan-2022 09:36:14.777 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 09:36:14.784 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Jan-2022 09:36:14.818 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 09:36:14.820 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 10:01:37.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+13-Jan-2022 10:01:37.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+13-Jan-2022 10:01:37.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+13-Jan-2022 10:01:37.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Jan-2022 10:01:37.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-46-generic
+13-Jan-2022 10:01:37.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Jan-2022 10:01:37.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+13-Jan-2022 10:01:37.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.13+8-Ubuntu-0ubuntu1.20.04
+13-Jan-2022 10:01:37.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+13-Jan-2022 10:01:37.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 10:01:37.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 10:01:37.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Jan-2022 10:01:37.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Jan-2022 10:01:37.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Jan-2022 10:01:37.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Jan-2022 10:01:37.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Jan-2022 10:01:37.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/conf/logging.properties
+13-Jan-2022 10:01:37.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Jan-2022 10:01:37.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Jan-2022 10:01:37.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Jan-2022 10:01:37.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+13-Jan-2022 10:01:37.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Jan-2022 10:01:37.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 10:01:37.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 10:01:37.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/temp
+13-Jan-2022 10:01:37.484 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+13-Jan-2022 10:01:37.526 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 10:01:37.544 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Jan-2022 10:01:37.560 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 547 ms
+13-Jan-2022 10:01:37.619 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Jan-2022 10:01:37.619 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+13-Jan-2022 10:01:37.635 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war]
+13-Jan-2022 10:01:37.835 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war] has finished in [199] ms
+13-Jan-2022 10:01:37.836 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/ROOT]
+13-Jan-2022 10:01:37.853 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/ROOT] has finished in [17] ms
+13-Jan-2022 10:01:37.856 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 10:01:37.866 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 304 ms
+13-Jan-2022 10:04:07.886 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context []
+13-Jan-2022 10:04:07.886 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+13-Jan-2022 10:04:07.917 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+13-Jan-2022 10:11:28.529 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+13-Jan-2022 10:11:39.042 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Planner]
+13-Jan-2022 10:12:19.058 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war]
+13-Jan-2022 10:12:19.091 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war] has finished in [33] ms
+13-Jan-2022 10:13:29.101 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner (1)]
+13-Jan-2022 10:13:29.121 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner (1)] has finished in [20] ms
+13-Jan-2022 10:13:44.096 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+13-Jan-2022 10:13:44.097 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 10:13:44.103 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Jan-2022 10:13:44.117 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 10:13:44.119 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 10:17:22.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+13-Jan-2022 10:17:22.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+13-Jan-2022 10:17:22.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+13-Jan-2022 10:17:22.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Jan-2022 10:17:22.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-46-generic
+13-Jan-2022 10:17:22.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Jan-2022 10:17:22.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+13-Jan-2022 10:17:22.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.13+8-Ubuntu-0ubuntu1.20.04
+13-Jan-2022 10:17:22.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+13-Jan-2022 10:17:22.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 10:17:22.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 10:17:22.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Jan-2022 10:17:22.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Jan-2022 10:17:22.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Jan-2022 10:17:22.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Jan-2022 10:17:22.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Jan-2022 10:17:22.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/conf/logging.properties
+13-Jan-2022 10:17:22.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Jan-2022 10:17:22.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Jan-2022 10:17:22.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Jan-2022 10:17:22.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+13-Jan-2022 10:17:22.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Jan-2022 10:17:22.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 10:17:22.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 10:17:22.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/temp
+13-Jan-2022 10:17:22.596 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+13-Jan-2022 10:17:22.633 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 10:17:22.644 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Jan-2022 10:17:22.655 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 407 ms
+13-Jan-2022 10:17:22.702 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Jan-2022 10:17:22.702 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+13-Jan-2022 10:17:22.717 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war]
+13-Jan-2022 10:17:22.734 INFO [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.expand An expanded directory [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner] was found with a last modified time that did not match the associated WAR. It will be deleted.
+13-Jan-2022 10:17:22.920 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war] has finished in [203] ms
+13-Jan-2022 10:17:22.923 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 10:17:22.930 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 274 ms
+13-Jan-2022 10:19:03.440 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Planner]
+13-Jan-2022 10:19:03.460 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war]
+13-Jan-2022 10:19:03.486 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war] has finished in [26] ms
+13-Jan-2022 10:26:30.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+13-Jan-2022 10:26:30.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+13-Jan-2022 10:26:30.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+13-Jan-2022 10:26:30.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Jan-2022 10:26:30.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-46-generic
+13-Jan-2022 10:26:30.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Jan-2022 10:26:30.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+13-Jan-2022 10:26:30.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.13+8-Ubuntu-0ubuntu1.20.04
+13-Jan-2022 10:26:30.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+13-Jan-2022 10:26:30.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 10:26:30.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 10:26:30.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Jan-2022 10:26:30.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Jan-2022 10:26:30.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Jan-2022 10:26:30.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Jan-2022 10:26:30.571 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Jan-2022 10:26:30.571 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/conf/logging.properties
+13-Jan-2022 10:26:30.571 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Jan-2022 10:26:30.571 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Jan-2022 10:26:30.571 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Jan-2022 10:26:30.571 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+13-Jan-2022 10:26:30.571 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Jan-2022 10:26:30.571 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 10:26:30.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 10:26:30.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/temp
+13-Jan-2022 10:26:30.572 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+13-Jan-2022 10:26:30.615 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 10:26:30.663 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Jan-2022 10:26:30.684 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 509 ms
+13-Jan-2022 10:26:30.745 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Jan-2022 10:26:30.745 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+13-Jan-2022 10:26:30.754 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner]
+13-Jan-2022 10:26:30.996 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner] has finished in [241] ms
+13-Jan-2022 10:26:30.996 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/ROOT]
+13-Jan-2022 10:26:31.010 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/ROOT] has finished in [14] ms
+13-Jan-2022 10:26:31.013 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 10:26:31.020 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 336 ms
+13-Jan-2022 10:27:41.022 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context []
+13-Jan-2022 10:27:41.023 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+13-Jan-2022 10:27:41.054 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+13-Jan-2022 10:28:31.062 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Planner]
+13-Jan-2022 10:28:31.078 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war]
+13-Jan-2022 10:28:31.105 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war] has finished in [26] ms
+13-Jan-2022 10:28:41.607 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Planner]
+13-Jan-2022 10:29:01.623 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war]
+13-Jan-2022 10:29:01.647 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war] has finished in [24] ms
+13-Jan-2022 10:29:42.153 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Planner]
+13-Jan-2022 10:29:52.166 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war]
+13-Jan-2022 10:29:52.187 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war] has finished in [21] ms
+13-Jan-2022 10:30:06.851 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+13-Jan-2022 10:30:06.852 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 10:30:06.858 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Jan-2022 10:30:06.865 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 10:30:06.868 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 10:32:31.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+13-Jan-2022 10:32:31.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+13-Jan-2022 10:32:31.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+13-Jan-2022 10:32:31.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Jan-2022 10:32:31.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-46-generic
+13-Jan-2022 10:32:31.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Jan-2022 10:32:31.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+13-Jan-2022 10:32:31.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.13+8-Ubuntu-0ubuntu1.20.04
+13-Jan-2022 10:32:31.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+13-Jan-2022 10:32:31.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 10:32:31.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 10:32:31.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Jan-2022 10:32:31.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Jan-2022 10:32:31.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Jan-2022 10:32:31.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Jan-2022 10:32:31.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Jan-2022 10:32:31.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/conf/logging.properties
+13-Jan-2022 10:32:31.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Jan-2022 10:32:31.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Jan-2022 10:32:31.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Jan-2022 10:32:31.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+13-Jan-2022 10:32:31.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Jan-2022 10:32:31.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 10:32:31.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 10:32:31.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/temp
+13-Jan-2022 10:32:31.100 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+13-Jan-2022 10:32:31.143 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 10:32:31.158 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Jan-2022 10:32:31.174 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 426 ms
+13-Jan-2022 10:32:31.232 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Jan-2022 10:32:31.232 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+13-Jan-2022 10:32:31.248 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war]
+13-Jan-2022 10:32:31.494 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war] has finished in [245] ms
+13-Jan-2022 10:32:31.495 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/ROOT]
+13-Jan-2022 10:32:31.517 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/ROOT] has finished in [22] ms
+13-Jan-2022 10:32:31.520 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 10:32:31.526 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 351 ms
+13-Jan-2022 10:39:58.163 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+13-Jan-2022 10:39:58.164 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 10:39:58.171 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Jan-2022 10:39:58.190 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 10:39:58.192 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 10:50:50.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+13-Jan-2022 10:50:50.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+13-Jan-2022 10:50:50.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+13-Jan-2022 10:50:50.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Jan-2022 10:50:50.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-46-generic
+13-Jan-2022 10:50:50.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Jan-2022 10:50:50.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+13-Jan-2022 10:50:50.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.13+8-Ubuntu-0ubuntu1.20.04
+13-Jan-2022 10:50:50.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+13-Jan-2022 10:50:50.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 10:50:50.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 10:50:50.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Jan-2022 10:50:50.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Jan-2022 10:50:50.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Jan-2022 10:50:50.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Jan-2022 10:50:50.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Jan-2022 10:50:50.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/conf/logging.properties
+13-Jan-2022 10:50:50.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Jan-2022 10:50:50.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Jan-2022 10:50:50.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Jan-2022 10:50:50.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+13-Jan-2022 10:50:50.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Jan-2022 10:50:50.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 10:50:50.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 10:50:50.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/temp
+13-Jan-2022 10:50:50.605 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+13-Jan-2022 10:50:50.643 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 10:50:50.653 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Jan-2022 10:50:50.664 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 422 ms
+13-Jan-2022 10:50:50.703 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Jan-2022 10:50:50.703 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+13-Jan-2022 10:50:50.719 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war]
+13-Jan-2022 10:50:50.927 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war] has finished in [207] ms
+13-Jan-2022 10:50:50.928 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/ROOT]
+13-Jan-2022 10:50:50.941 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/ROOT] has finished in [13] ms
+13-Jan-2022 10:50:50.943 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 10:50:50.949 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 285 ms
+13-Jan-2022 10:51:13.309 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+13-Jan-2022 10:51:13.309 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 10:51:13.316 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Jan-2022 10:51:13.337 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 10:51:13.338 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 10:52:12.730 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+13-Jan-2022 10:52:12.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+13-Jan-2022 10:52:12.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+13-Jan-2022 10:52:12.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Jan-2022 10:52:12.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-46-generic
+13-Jan-2022 10:52:12.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Jan-2022 10:52:12.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+13-Jan-2022 10:52:12.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.13+8-Ubuntu-0ubuntu1.20.04
+13-Jan-2022 10:52:12.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+13-Jan-2022 10:52:12.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 10:52:12.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 10:52:12.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Jan-2022 10:52:12.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Jan-2022 10:52:12.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Jan-2022 10:52:12.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Jan-2022 10:52:12.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Jan-2022 10:52:12.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/conf/logging.properties
+13-Jan-2022 10:52:12.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Jan-2022 10:52:12.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Jan-2022 10:52:12.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Jan-2022 10:52:12.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+13-Jan-2022 10:52:12.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Jan-2022 10:52:12.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 10:52:12.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 10:52:12.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/temp
+13-Jan-2022 10:52:12.738 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+13-Jan-2022 10:52:12.779 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 10:52:12.795 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Jan-2022 10:52:12.811 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 419 ms
+13-Jan-2022 10:52:12.869 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Jan-2022 10:52:12.869 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+13-Jan-2022 10:52:12.889 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war]
+13-Jan-2022 10:52:13.123 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war] has finished in [234] ms
+13-Jan-2022 10:52:13.124 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/ROOT]
+13-Jan-2022 10:52:13.145 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/ROOT] has finished in [21] ms
+13-Jan-2022 10:52:13.147 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 10:52:13.153 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 342 ms
+13-Jan-2022 10:53:52.363 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+13-Jan-2022 10:53:52.364 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 10:53:52.370 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Jan-2022 10:53:52.387 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 10:53:52.389 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 10:53:56.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+13-Jan-2022 10:53:56.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+13-Jan-2022 10:53:56.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+13-Jan-2022 10:53:56.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Jan-2022 10:53:56.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-46-generic
+13-Jan-2022 10:53:56.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Jan-2022 10:53:56.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+13-Jan-2022 10:53:56.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.13+8-Ubuntu-0ubuntu1.20.04
+13-Jan-2022 10:53:56.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+13-Jan-2022 10:53:56.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 10:53:56.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 10:53:56.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Jan-2022 10:53:56.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Jan-2022 10:53:56.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Jan-2022 10:53:56.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Jan-2022 10:53:56.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Jan-2022 10:53:56.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/conf/logging.properties
+13-Jan-2022 10:53:56.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Jan-2022 10:53:56.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Jan-2022 10:53:56.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Jan-2022 10:53:56.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+13-Jan-2022 10:53:56.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Jan-2022 10:53:56.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 10:53:56.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 10:53:56.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/temp
+13-Jan-2022 10:53:56.764 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+13-Jan-2022 10:53:56.810 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 10:53:56.824 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Jan-2022 10:53:56.836 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 466 ms
+13-Jan-2022 10:53:56.882 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Jan-2022 10:53:56.882 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+13-Jan-2022 10:53:56.906 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war]
+13-Jan-2022 10:53:57.154 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war] has finished in [248] ms
+13-Jan-2022 10:53:57.155 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/ROOT]
+13-Jan-2022 10:53:57.182 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/ROOT] has finished in [26] ms
+13-Jan-2022 10:53:57.184 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 10:53:57.190 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 354 ms
+13-Jan-2022 11:04:14.439 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+13-Jan-2022 11:04:14.440 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 11:04:14.446 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Jan-2022 11:04:14.468 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 11:04:14.471 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 11:05:49.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+13-Jan-2022 11:05:50.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+13-Jan-2022 11:05:50.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+13-Jan-2022 11:05:50.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Jan-2022 11:05:50.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-46-generic
+13-Jan-2022 11:05:50.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Jan-2022 11:05:50.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+13-Jan-2022 11:05:50.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.13+8-Ubuntu-0ubuntu1.20.04
+13-Jan-2022 11:05:50.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+13-Jan-2022 11:05:50.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 11:05:50.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 11:05:50.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Jan-2022 11:05:50.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Jan-2022 11:05:50.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Jan-2022 11:05:50.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Jan-2022 11:05:50.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Jan-2022 11:05:50.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/conf/logging.properties
+13-Jan-2022 11:05:50.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Jan-2022 11:05:50.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Jan-2022 11:05:50.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Jan-2022 11:05:50.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+13-Jan-2022 11:05:50.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Jan-2022 11:05:50.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 11:05:50.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 11:05:50.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/temp
+13-Jan-2022 11:05:50.005 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+13-Jan-2022 11:05:50.053 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 11:05:50.066 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Jan-2022 11:05:50.080 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 466 ms
+13-Jan-2022 11:05:50.118 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Jan-2022 11:05:50.118 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+13-Jan-2022 11:05:50.134 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war]
+13-Jan-2022 11:05:50.349 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war] has finished in [215] ms
+13-Jan-2022 11:05:50.351 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/ROOT]
+13-Jan-2022 11:05:50.373 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/ROOT] has finished in [23] ms
+13-Jan-2022 11:05:50.375 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 11:05:50.381 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 300 ms
+13-Jan-2022 11:08:45.677 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+13-Jan-2022 11:08:45.678 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 11:08:45.685 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Jan-2022 11:08:45.702 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 11:08:45.704 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 11:18:56.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+13-Jan-2022 11:18:56.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+13-Jan-2022 11:18:56.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+13-Jan-2022 11:18:56.340 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Jan-2022 11:18:56.340 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-46-generic
+13-Jan-2022 11:18:56.340 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Jan-2022 11:18:56.340 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+13-Jan-2022 11:18:56.340 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.13+8-Ubuntu-0ubuntu1.20.04
+13-Jan-2022 11:18:56.340 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+13-Jan-2022 11:18:56.340 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 11:18:56.340 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 11:18:56.341 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Jan-2022 11:18:56.341 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Jan-2022 11:18:56.341 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Jan-2022 11:18:56.341 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Jan-2022 11:18:56.341 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Jan-2022 11:18:56.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/conf/logging.properties
+13-Jan-2022 11:18:56.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Jan-2022 11:18:56.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Jan-2022 11:18:56.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Jan-2022 11:18:56.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+13-Jan-2022 11:18:56.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Jan-2022 11:18:56.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 11:18:56.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 11:18:56.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/temp
+13-Jan-2022 11:18:56.342 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+13-Jan-2022 11:18:56.380 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 11:18:56.391 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Jan-2022 11:18:56.401 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 405 ms
+13-Jan-2022 11:18:56.445 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Jan-2022 11:18:56.445 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+13-Jan-2022 11:18:56.460 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war]
+13-Jan-2022 11:18:56.684 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war] has finished in [224] ms
+13-Jan-2022 11:18:56.685 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/ROOT]
+13-Jan-2022 11:18:56.701 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/ROOT] has finished in [16] ms
+13-Jan-2022 11:18:56.703 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 11:18:56.711 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 309 ms
+13-Jan-2022 11:19:02.533 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+13-Jan-2022 11:19:02.533 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 11:19:02.540 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Jan-2022 11:19:02.558 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 11:19:02.559 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 11:19:30.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+13-Jan-2022 11:19:30.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+13-Jan-2022 11:19:30.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+13-Jan-2022 11:19:30.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Jan-2022 11:19:30.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-46-generic
+13-Jan-2022 11:19:30.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Jan-2022 11:19:30.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+13-Jan-2022 11:19:30.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.13+8-Ubuntu-0ubuntu1.20.04
+13-Jan-2022 11:19:30.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+13-Jan-2022 11:19:30.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 11:19:30.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 11:19:30.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Jan-2022 11:19:30.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Jan-2022 11:19:30.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Jan-2022 11:19:30.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Jan-2022 11:19:30.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Jan-2022 11:19:30.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/conf/logging.properties
+13-Jan-2022 11:19:30.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Jan-2022 11:19:30.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Jan-2022 11:19:30.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Jan-2022 11:19:30.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+13-Jan-2022 11:19:30.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Jan-2022 11:19:30.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 11:19:30.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 11:19:30.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/temp
+13-Jan-2022 11:19:30.823 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+13-Jan-2022 11:19:30.864 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 11:19:30.874 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Jan-2022 11:19:30.892 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 435 ms
+13-Jan-2022 11:19:30.951 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Jan-2022 11:19:30.951 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+13-Jan-2022 11:19:30.968 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war]
+13-Jan-2022 11:19:31.201 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war] has finished in [233] ms
+13-Jan-2022 11:19:31.202 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/ROOT]
+13-Jan-2022 11:19:31.217 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/ROOT] has finished in [15] ms
+13-Jan-2022 11:19:31.220 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 11:19:31.227 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 334 ms
+13-Jan-2022 11:20:31.732 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+13-Jan-2022 11:21:09.678 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+13-Jan-2022 11:21:09.678 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 11:21:09.685 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Jan-2022 11:21:09.691 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 11:21:09.694 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 11:21:13.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+13-Jan-2022 11:21:13.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+13-Jan-2022 11:21:13.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+13-Jan-2022 11:21:13.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Jan-2022 11:21:13.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-46-generic
+13-Jan-2022 11:21:13.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Jan-2022 11:21:13.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+13-Jan-2022 11:21:13.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.13+8-Ubuntu-0ubuntu1.20.04
+13-Jan-2022 11:21:13.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+13-Jan-2022 11:21:13.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 11:21:13.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 11:21:13.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Jan-2022 11:21:13.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Jan-2022 11:21:13.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Jan-2022 11:21:13.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Jan-2022 11:21:13.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Jan-2022 11:21:13.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/conf/logging.properties
+13-Jan-2022 11:21:13.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Jan-2022 11:21:13.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Jan-2022 11:21:13.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Jan-2022 11:21:13.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+13-Jan-2022 11:21:13.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Jan-2022 11:21:13.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 11:21:13.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 11:21:13.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/temp
+13-Jan-2022 11:21:13.629 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+13-Jan-2022 11:21:13.672 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 11:21:13.683 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Jan-2022 11:21:13.695 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 471 ms
+13-Jan-2022 11:21:13.740 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Jan-2022 11:21:13.740 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+13-Jan-2022 11:21:13.757 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war]
+13-Jan-2022 11:21:13.984 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war] has finished in [227] ms
+13-Jan-2022 11:21:13.986 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 11:21:13.992 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 296 ms
+13-Jan-2022 11:22:30.424 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+13-Jan-2022 11:22:30.425 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 11:22:30.432 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Jan-2022 11:22:30.445 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 11:22:30.446 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 11:52:10.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+13-Jan-2022 11:52:10.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+13-Jan-2022 11:52:10.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+13-Jan-2022 11:52:10.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Jan-2022 11:52:10.310 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-46-generic
+13-Jan-2022 11:52:10.310 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Jan-2022 11:52:10.310 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+13-Jan-2022 11:52:10.310 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.13+8-Ubuntu-0ubuntu1.20.04
+13-Jan-2022 11:52:10.310 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+13-Jan-2022 11:52:10.310 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 11:52:10.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 11:52:10.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Jan-2022 11:52:10.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Jan-2022 11:52:10.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Jan-2022 11:52:10.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Jan-2022 11:52:10.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Jan-2022 11:52:10.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/conf/logging.properties
+13-Jan-2022 11:52:10.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Jan-2022 11:52:10.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Jan-2022 11:52:10.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Jan-2022 11:52:10.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+13-Jan-2022 11:52:10.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Jan-2022 11:52:10.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 11:52:10.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 11:52:10.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/temp
+13-Jan-2022 11:52:10.313 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+13-Jan-2022 11:52:10.365 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 11:52:10.375 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Jan-2022 11:52:10.386 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 450 ms
+13-Jan-2022 11:52:10.429 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Jan-2022 11:52:10.429 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+13-Jan-2022 11:52:10.446 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war]
+13-Jan-2022 11:52:10.689 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war] has finished in [242] ms
+13-Jan-2022 11:52:10.691 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 11:52:10.698 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 312 ms
+13-Jan-2022 11:53:56.433 SEVERE [http-nio-8080-exec-4] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Failed to complete processing of a request
+	java.lang.OutOfMemoryError: Java heap space
+		at java.base/java.util.Arrays.copyOf(Arrays.java:3689)
+		at java.base/java.util.ArrayList.grow(ArrayList.java:238)
+		at java.base/java.util.ArrayList.grow(ArrayList.java:243)
+		at java.base/java.util.ArrayList.add(ArrayList.java:486)
+		at java.base/java.util.ArrayList.add(ArrayList.java:499)
+		at app.Dijkstra.buildAdjList(Dijkstra.java:44)
+		at app.InitServlet.doGet(InitServlet.java:43)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:196)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:624)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+13-Jan-2022 11:59:24.176 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+13-Jan-2022 11:59:24.178 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 11:59:24.185 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Jan-2022 11:59:24.197 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 11:59:24.198 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 11:59:26.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+13-Jan-2022 11:59:26.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+13-Jan-2022 11:59:26.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+13-Jan-2022 11:59:26.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Jan-2022 11:59:26.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-46-generic
+13-Jan-2022 11:59:26.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Jan-2022 11:59:26.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+13-Jan-2022 11:59:26.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.13+8-Ubuntu-0ubuntu1.20.04
+13-Jan-2022 11:59:26.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+13-Jan-2022 11:59:26.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 11:59:26.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 11:59:26.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Jan-2022 11:59:26.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Jan-2022 11:59:26.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Jan-2022 11:59:26.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Jan-2022 11:59:26.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Jan-2022 11:59:26.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/conf/logging.properties
+13-Jan-2022 11:59:26.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Jan-2022 11:59:26.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Jan-2022 11:59:26.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Jan-2022 11:59:26.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+13-Jan-2022 11:59:26.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Jan-2022 11:59:26.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 11:59:26.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 11:59:26.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/temp
+13-Jan-2022 11:59:26.148 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+13-Jan-2022 11:59:26.193 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 11:59:26.207 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Jan-2022 11:59:26.224 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 440 ms
+13-Jan-2022 11:59:26.270 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Jan-2022 11:59:26.271 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+13-Jan-2022 11:59:26.285 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war]
+13-Jan-2022 11:59:26.491 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war] has finished in [206] ms
+13-Jan-2022 11:59:26.494 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 11:59:26.500 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 275 ms
+13-Jan-2022 12:03:42.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+13-Jan-2022 12:03:42.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+13-Jan-2022 12:03:42.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+13-Jan-2022 12:03:42.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Jan-2022 12:03:42.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-46-generic
+13-Jan-2022 12:03:42.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Jan-2022 12:03:42.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+13-Jan-2022 12:03:42.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.13+8-Ubuntu-0ubuntu1.20.04
+13-Jan-2022 12:03:42.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+13-Jan-2022 12:03:42.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 12:03:42.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 12:03:43.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Jan-2022 12:03:43.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Jan-2022 12:03:43.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Jan-2022 12:03:43.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Jan-2022 12:03:43.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Jan-2022 12:03:43.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/conf/logging.properties
+13-Jan-2022 12:03:43.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Jan-2022 12:03:43.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Jan-2022 12:03:43.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Jan-2022 12:03:43.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+13-Jan-2022 12:03:43.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Jan-2022 12:03:43.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 12:03:43.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 12:03:43.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/temp
+13-Jan-2022 12:03:43.002 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+13-Jan-2022 12:03:43.036 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 12:03:43.046 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Jan-2022 12:03:43.056 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 458 ms
+13-Jan-2022 12:03:43.098 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Jan-2022 12:03:43.099 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+13-Jan-2022 12:03:43.115 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war]
+13-Jan-2022 12:03:43.344 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war] has finished in [228] ms
+13-Jan-2022 12:03:43.347 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 12:03:43.355 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 298 ms
+13-Jan-2022 12:05:20.155 SEVERE [http-nio-8080-exec-2] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Failed to complete processing of a request
+	java.lang.OutOfMemoryError: Java heap space
+		at app.Dijkstra.buildAdjList(Dijkstra.java:42)
+		at app.InitServlet.doGet(InitServlet.java:43)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:196)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:624)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+13-Jan-2022 12:06:05.083 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+13-Jan-2022 12:06:05.083 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 12:06:05.090 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Jan-2022 12:06:05.098 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 12:06:06.199 WARNING [main] org.apache.tomcat.util.net.NioEndpoint.stopInternal The pollers did not stop within the expected time
+13-Jan-2022 12:06:06.202 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 12:06:07.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+13-Jan-2022 12:06:07.644 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+13-Jan-2022 12:06:07.644 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+13-Jan-2022 12:06:07.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Jan-2022 12:06:07.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-46-generic
+13-Jan-2022 12:06:07.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Jan-2022 12:06:07.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+13-Jan-2022 12:06:07.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.13+8-Ubuntu-0ubuntu1.20.04
+13-Jan-2022 12:06:07.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+13-Jan-2022 12:06:07.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 12:06:07.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 12:06:07.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Jan-2022 12:06:07.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Jan-2022 12:06:07.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Jan-2022 12:06:07.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Jan-2022 12:06:07.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Jan-2022 12:06:07.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/conf/logging.properties
+13-Jan-2022 12:06:07.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Jan-2022 12:06:07.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Jan-2022 12:06:07.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Jan-2022 12:06:07.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+13-Jan-2022 12:06:07.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Jan-2022 12:06:07.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 12:06:07.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 12:06:07.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/temp
+13-Jan-2022 12:06:07.650 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+13-Jan-2022 12:06:07.702 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 12:06:07.721 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Jan-2022 12:06:07.738 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 489 ms
+13-Jan-2022 12:06:07.789 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Jan-2022 12:06:07.789 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+13-Jan-2022 12:06:07.805 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war]
+13-Jan-2022 12:06:08.031 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war] has finished in [225] ms
+13-Jan-2022 12:06:08.033 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 12:06:08.039 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 301 ms
+13-Jan-2022 12:07:06.721 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+13-Jan-2022 12:07:06.722 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 12:07:06.729 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Jan-2022 12:07:06.738 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 12:07:06.740 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 12:07:12.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+13-Jan-2022 12:07:12.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+13-Jan-2022 12:07:12.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+13-Jan-2022 12:07:12.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Jan-2022 12:07:12.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-46-generic
+13-Jan-2022 12:07:12.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Jan-2022 12:07:12.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+13-Jan-2022 12:07:12.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.13+8-Ubuntu-0ubuntu1.20.04
+13-Jan-2022 12:07:12.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+13-Jan-2022 12:07:12.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 12:07:12.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 12:07:12.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Jan-2022 12:07:12.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Jan-2022 12:07:12.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Jan-2022 12:07:12.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Jan-2022 12:07:12.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Jan-2022 12:07:12.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/conf/logging.properties
+13-Jan-2022 12:07:12.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Jan-2022 12:07:12.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Jan-2022 12:07:12.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Jan-2022 12:07:12.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+13-Jan-2022 12:07:12.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Jan-2022 12:07:12.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 12:07:12.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 12:07:12.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/temp
+13-Jan-2022 12:07:12.236 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+13-Jan-2022 12:07:12.276 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 12:07:12.288 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Jan-2022 12:07:12.304 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 479 ms
+13-Jan-2022 12:07:12.354 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Jan-2022 12:07:12.355 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+13-Jan-2022 12:07:12.370 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war]
+13-Jan-2022 12:07:12.554 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war] has finished in [184] ms
+13-Jan-2022 12:07:12.557 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 12:07:12.564 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 259 ms
+13-Jan-2022 12:08:51.357 SEVERE [http-nio-8080-exec-2] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Failed to complete processing of a request
+	java.lang.OutOfMemoryError: Java heap space
+		at app.Dijkstra.buildAdjList(Dijkstra.java:42)
+		at app.InitServlet.doGet(InitServlet.java:43)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:196)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:624)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+13-Jan-2022 12:09:31.568 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+13-Jan-2022 12:09:31.569 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 12:09:31.583 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Jan-2022 12:09:31.586 INFO [localhost-startStop-2] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [app.InitServlet]
+13-Jan-2022 12:09:32.587 INFO [localhost-startStop-2] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [app.InitServlet]
+13-Jan-2022 12:09:33.594 INFO [localhost-startStop-2] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [app.InitServlet]
+13-Jan-2022 12:09:33.699 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Planner] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ app.ReadFile.readFile(ReadFile.java:53)
+ app.InitServlet.doGet(InitServlet.java:35)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:196)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+ org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:624)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+ org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.base@11.0.13/java.lang.Thread.run(Thread.java:829)]
+13-Jan-2022 12:09:33.703 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 12:09:34.803 WARNING [main] org.apache.tomcat.util.net.NioEndpoint.stopInternal The pollers did not stop within the expected time
+13-Jan-2022 12:09:39.806 WARNING [main] org.apache.tomcat.util.net.AbstractEndpoint.shutdownExecutor The executor associated with thread pool [http-nio-8080] has not fully shutdown. Some application threads may still be running.
+13-Jan-2022 12:09:39.807 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 13:29:35.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+13-Jan-2022 13:29:35.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+13-Jan-2022 13:29:35.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+13-Jan-2022 13:29:35.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Jan-2022 13:29:35.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-46-generic
+13-Jan-2022 13:29:35.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Jan-2022 13:29:35.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+13-Jan-2022 13:29:35.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.13+8-Ubuntu-0ubuntu1.20.04
+13-Jan-2022 13:29:35.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+13-Jan-2022 13:29:35.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 13:29:35.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 13:29:35.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Jan-2022 13:29:35.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Jan-2022 13:29:35.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Jan-2022 13:29:35.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Jan-2022 13:29:35.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Jan-2022 13:29:35.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/conf/logging.properties
+13-Jan-2022 13:29:35.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Jan-2022 13:29:35.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Jan-2022 13:29:35.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Jan-2022 13:29:35.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+13-Jan-2022 13:29:35.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Jan-2022 13:29:35.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 13:29:35.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 13:29:35.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/temp
+13-Jan-2022 13:29:35.534 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+13-Jan-2022 13:29:35.579 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 13:29:35.598 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Jan-2022 13:29:35.609 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 538 ms
+13-Jan-2022 13:29:35.658 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Jan-2022 13:29:35.658 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+13-Jan-2022 13:29:35.675 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war]
+13-Jan-2022 13:29:35.879 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war] has finished in [203] ms
+13-Jan-2022 13:29:35.881 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 13:29:35.887 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 277 ms
+13-Jan-2022 13:34:34.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+13-Jan-2022 13:34:34.179 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+13-Jan-2022 13:34:34.179 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+13-Jan-2022 13:34:34.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Jan-2022 13:34:34.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-46-generic
+13-Jan-2022 13:34:34.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Jan-2022 13:34:34.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+13-Jan-2022 13:34:34.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.13+8-Ubuntu-0ubuntu1.20.04
+13-Jan-2022 13:34:34.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+13-Jan-2022 13:34:34.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 13:34:34.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 13:34:34.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Jan-2022 13:34:34.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Jan-2022 13:34:34.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Jan-2022 13:34:34.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Jan-2022 13:34:34.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Jan-2022 13:34:34.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/conf/logging.properties
+13-Jan-2022 13:34:34.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Jan-2022 13:34:34.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Jan-2022 13:34:34.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Jan-2022 13:34:34.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+13-Jan-2022 13:34:34.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Jan-2022 13:34:34.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 13:34:34.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 13:34:34.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/temp
+13-Jan-2022 13:34:34.184 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+13-Jan-2022 13:34:34.232 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 13:34:34.246 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Jan-2022 13:34:34.260 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 461 ms
+13-Jan-2022 13:34:34.312 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Jan-2022 13:34:34.312 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+13-Jan-2022 13:34:34.331 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war]
+13-Jan-2022 13:34:34.560 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war] has finished in [229] ms
+13-Jan-2022 13:34:34.563 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 13:34:34.570 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 309 ms
+13-Jan-2022 13:34:35.544 INFO [http-nio-8080-exec-1] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x03k0xbfi>0xba0x110xb00x110x83Tt0x9f0x8e`0x9a0xabo0xed0x1d0xf00x030xfd0xd50xe10xd90xed0x9c_0xa01d0x1f ]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:434)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:511)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+13-Jan-2022 13:36:36.319 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run Unexpected death of background thread [ContainerBackgroundProcessor[StandardEngine[Catalina]]]
+	java.lang.OutOfMemoryError: Java heap space
+		at java.base/sun.util.locale.provider.DateFormatSymbolsProviderImpl.getInstance(DateFormatSymbolsProviderImpl.java:85)
+		at java.base/java.text.DateFormatSymbols.getProviderInstance(DateFormatSymbols.java:370)
+		at java.base/java.text.DateFormatSymbols.getInstance(DateFormatSymbols.java:346)
+		at java.base/java.util.Calendar.getDisplayName(Calendar.java:2142)
+		at java.base/java.text.SimpleDateFormat.subFormat(SimpleDateFormat.java:1156)
+		at java.base/java.text.SimpleDateFormat.format(SimpleDateFormat.java:997)
+		at java.base/java.text.SimpleDateFormat.format(SimpleDateFormat.java:967)
+		at java.base/java.text.DateFormat.format(DateFormat.java:374)
+		at java.base/sun.net.www.protocol.file.FileURLConnection.initializeHeaders(FileURLConnection.java:132)
+		at java.base/sun.net.www.protocol.file.FileURLConnection.getLastModified(FileURLConnection.java:174)
+		at org.apache.catalina.users.MemoryUserDatabase.backgroundProcess(MemoryUserDatabase.java:679)
+		at org.apache.catalina.realm.UserDatabaseRealm.backgroundProcess(UserDatabaseRealm.java:138)
+		at org.apache.catalina.realm.CombinedRealm.backgroundProcess(CombinedRealm.java:308)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1156)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1368)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+13-Jan-2022 13:36:36.320 SEVERE [http-nio-8080-exec-6] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Failed to complete processing of a request
+	java.lang.OutOfMemoryError: Java heap space
+		at java.base/java.util.Arrays.copyOf(Arrays.java:3689)
+		at java.base/java.util.ArrayList.grow(ArrayList.java:238)
+		at java.base/java.util.ArrayList.grow(ArrayList.java:243)
+		at java.base/java.util.ArrayList.add(ArrayList.java:486)
+		at java.base/java.util.ArrayList.add(ArrayList.java:499)
+		at app.Dijkstra.buildAdjList(Dijkstra.java:44)
+		at app.InitServlet.doGet(InitServlet.java:43)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:196)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:624)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+13-Jan-2022 13:37:50.663 SEVERE [http-nio-8080-exec-9] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Failed to complete processing of a request
+	java.lang.OutOfMemoryError: Java heap space
+13-Jan-2022 13:38:26.121 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+13-Jan-2022 13:38:26.122 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 13:38:26.129 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Jan-2022 13:38:26.144 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 13:38:27.245 WARNING [main] org.apache.tomcat.util.net.NioEndpoint.stopInternal The pollers did not stop within the expected time
+13-Jan-2022 13:38:27.247 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 13:38:32.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+13-Jan-2022 13:38:32.430 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+13-Jan-2022 13:38:32.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+13-Jan-2022 13:38:32.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Jan-2022 13:38:32.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-46-generic
+13-Jan-2022 13:38:32.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Jan-2022 13:38:32.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+13-Jan-2022 13:38:32.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.13+8-Ubuntu-0ubuntu1.20.04
+13-Jan-2022 13:38:32.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+13-Jan-2022 13:38:32.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 13:38:32.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 13:38:32.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Jan-2022 13:38:32.434 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Jan-2022 13:38:32.434 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Jan-2022 13:38:32.434 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Jan-2022 13:38:32.434 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Jan-2022 13:38:32.434 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/conf/logging.properties
+13-Jan-2022 13:38:32.434 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Jan-2022 13:38:32.434 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Jan-2022 13:38:32.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Jan-2022 13:38:32.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+13-Jan-2022 13:38:32.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Jan-2022 13:38:32.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 13:38:32.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 13:38:32.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/temp
+13-Jan-2022 13:38:32.435 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+13-Jan-2022 13:38:32.482 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 13:38:32.498 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Jan-2022 13:38:32.514 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 533 ms
+13-Jan-2022 13:38:32.565 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Jan-2022 13:38:32.565 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+13-Jan-2022 13:38:32.580 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war]
+13-Jan-2022 13:38:32.758 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war] has finished in [178] ms
+13-Jan-2022 13:38:32.761 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 13:38:32.769 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 254 ms
+13-Jan-2022 13:40:10.137 SEVERE [http-nio-8080-exec-2] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Failed to complete processing of a request
+	java.lang.OutOfMemoryError: Java heap space
+		at app.Dijkstra.buildAdjList(Dijkstra.java:35)
+		at app.InitServlet.doGet(InitServlet.java:43)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:196)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:624)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+13-Jan-2022 13:41:23.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+13-Jan-2022 13:41:23.050 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+13-Jan-2022 13:41:23.050 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+13-Jan-2022 13:41:23.050 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Jan-2022 13:41:23.050 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-46-generic
+13-Jan-2022 13:41:23.050 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Jan-2022 13:41:23.050 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+13-Jan-2022 13:41:23.050 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.13+8-Ubuntu-0ubuntu1.20.04
+13-Jan-2022 13:41:23.051 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+13-Jan-2022 13:41:23.051 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 13:41:23.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 13:41:23.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Jan-2022 13:41:23.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Jan-2022 13:41:23.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Jan-2022 13:41:23.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Jan-2022 13:41:23.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Jan-2022 13:41:23.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/conf/logging.properties
+13-Jan-2022 13:41:23.055 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Jan-2022 13:41:23.055 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Jan-2022 13:41:23.055 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Jan-2022 13:41:23.055 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+13-Jan-2022 13:41:23.055 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Jan-2022 13:41:23.055 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 13:41:23.055 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 13:41:23.055 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/temp
+13-Jan-2022 13:41:23.056 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+13-Jan-2022 13:41:23.242 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 13:41:23.258 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1076)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:843)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:639)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:662)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:455)
+		at java.base/sun.nio.ch.Net.bind(Net.java:447)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+		at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:221)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1161)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:222)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:599)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:80)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1074)
+		... 13 more
+13-Jan-2022 13:41:23.259 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1407 ms
+13-Jan-2022 13:41:23.330 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Jan-2022 13:41:23.330 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+13-Jan-2022 13:41:23.379 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war]
+13-Jan-2022 13:41:24.140 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war] has finished in [754] ms
+13-Jan-2022 13:41:24.169 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 909 ms
+13-Jan-2022 13:41:24.175 SEVERE [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+	java.net.BindException: Address already in use (Bind failed)
+		at java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+		at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:436)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:395)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:257)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:414)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:776)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:722)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+13-Jan-2022 13:41:24.180 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 13:41:24.180 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Jan-2022 13:41:24.199 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 13:41:24.200 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 13:41:51.242 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run Unexpected death of background thread [ContainerBackgroundProcessor[StandardEngine[Catalina]]]
+	java.lang.OutOfMemoryError: Java heap space
+		at java.base/jdk.internal.reflect.ReflectionFactory.newConstructorAccessor(ReflectionFactory.java:258)
+		at java.base/java.lang.reflect.Constructor.acquireConstructorAccessor(Constructor.java:527)
+		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:487)
+		at java.base/java.util.ResourceBundle$ResourceBundleProviderHelper.newResourceBundle(ResourceBundle.java:3575)
+		at java.base/java.util.ResourceBundle$1.newResourceBundle(ResourceBundle.java:416)
+		at java.base/sun.util.resources.Bundles.findBundleOf(Bundles.java:209)
+		at java.base/sun.util.resources.Bundles.findBundleOf(Bundles.java:160)
+		at java.base/sun.util.resources.Bundles.loadBundleOf(Bundles.java:145)
+		at java.base/sun.util.resources.Bundles.of(Bundles.java:106)
+		at java.base/sun.util.resources.LocaleData$1.run(LocaleData.java:185)
+		at java.base/sun.util.resources.LocaleData$1.run(LocaleData.java:182)
+		at java.base/java.security.AccessController.doPrivileged(Native Method)
+		at java.base/sun.util.resources.LocaleData.getBundle(LocaleData.java:182)
+		at java.base/sun.util.resources.LocaleData.getDateFormatData(LocaleData.java:146)
+		at java.base/java.text.DateFormatSymbols.initializeData(DateFormatSymbols.java:745)
+		at java.base/java.text.DateFormatSymbols.<init>(DateFormatSymbols.java:151)
+		at java.base/sun.util.locale.provider.DateFormatSymbolsProviderImpl.getInstance(DateFormatSymbolsProviderImpl.java:85)
+		at java.base/java.text.DateFormatSymbols.getProviderInstance(DateFormatSymbols.java:370)
+		at java.base/java.text.DateFormatSymbols.getInstanceRef(DateFormatSymbols.java:360)
+		at java.base/java.text.SimpleDateFormat.<init>(SimpleDateFormat.java:622)
+		at java.base/sun.net.www.protocol.file.FileURLConnection.initializeHeaders(FileURLConnection.java:129)
+		at java.base/sun.net.www.protocol.file.FileURLConnection.getLastModified(FileURLConnection.java:174)
+		at org.apache.catalina.users.MemoryUserDatabase.backgroundProcess(MemoryUserDatabase.java:679)
+		at org.apache.catalina.realm.UserDatabaseRealm.backgroundProcess(UserDatabaseRealm.java:138)
+		at org.apache.catalina.realm.CombinedRealm.backgroundProcess(CombinedRealm.java:308)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1156)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1368)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+13-Jan-2022 13:41:51.243 SEVERE [http-nio-8080-exec-3] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Failed to complete processing of a request
+	java.lang.OutOfMemoryError: Java heap space
+13-Jan-2022 13:41:51.243 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 13:41:51.251 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Jan-2022 13:41:51.260 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 13:41:52.360 WARNING [Thread-3] org.apache.tomcat.util.net.NioEndpoint.stopInternal The pollers did not stop within the expected time
+13-Jan-2022 13:41:52.362 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 13:43:42.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+13-Jan-2022 13:43:42.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+13-Jan-2022 13:43:42.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+13-Jan-2022 13:43:42.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Jan-2022 13:43:42.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-46-generic
+13-Jan-2022 13:43:42.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Jan-2022 13:43:42.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+13-Jan-2022 13:43:42.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.13+8-Ubuntu-0ubuntu1.20.04
+13-Jan-2022 13:43:42.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+13-Jan-2022 13:43:42.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 13:43:42.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 13:43:42.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Jan-2022 13:43:42.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Jan-2022 13:43:42.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Jan-2022 13:43:42.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Jan-2022 13:43:42.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Jan-2022 13:43:42.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/conf/logging.properties
+13-Jan-2022 13:43:42.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Jan-2022 13:43:42.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Jan-2022 13:43:42.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Jan-2022 13:43:42.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+13-Jan-2022 13:43:42.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Jan-2022 13:43:42.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 13:43:42.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 13:43:42.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/temp
+13-Jan-2022 13:43:42.714 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+13-Jan-2022 13:43:42.753 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 13:43:42.763 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Jan-2022 13:43:42.775 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 430 ms
+13-Jan-2022 13:43:42.817 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Jan-2022 13:43:42.817 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+13-Jan-2022 13:43:42.833 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war]
+13-Jan-2022 13:43:43.038 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war] has finished in [205] ms
+13-Jan-2022 13:43:43.043 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 13:43:43.049 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 273 ms
+13-Jan-2022 13:45:35.858 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run Unexpected death of background thread [ContainerBackgroundProcessor[StandardEngine[Catalina]]]
+	java.lang.OutOfMemoryError: Java heap space
+13-Jan-2022 13:45:35.860 SEVERE [http-nio-8080-exec-3] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Failed to complete processing of a request
+	java.lang.OutOfMemoryError: Java heap space
+		at java.base/java.util.Arrays.copyOf(Arrays.java:3689)
+		at java.base/java.util.ArrayList.grow(ArrayList.java:238)
+		at java.base/java.util.ArrayList.grow(ArrayList.java:243)
+		at java.base/java.util.ArrayList.add(ArrayList.java:486)
+		at java.base/java.util.ArrayList.add(ArrayList.java:499)
+		at app.Dijkstra.buildAdjList(Dijkstra.java:44)
+		at app.InitServlet.doGet(InitServlet.java:43)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:196)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:624)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+13-Jan-2022 13:48:04.960 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+13-Jan-2022 13:48:04.960 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 13:48:04.967 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Jan-2022 13:48:04.976 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 13:48:06.076 WARNING [main] org.apache.tomcat.util.net.NioEndpoint.stopInternal The pollers did not stop within the expected time
+13-Jan-2022 13:48:06.078 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 13:49:36.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+13-Jan-2022 13:49:36.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+13-Jan-2022 13:49:36.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+13-Jan-2022 13:49:36.653 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Jan-2022 13:49:36.653 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-46-generic
+13-Jan-2022 13:49:36.653 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Jan-2022 13:49:36.653 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+13-Jan-2022 13:49:36.653 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.13+8-Ubuntu-0ubuntu1.20.04
+13-Jan-2022 13:49:36.654 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+13-Jan-2022 13:49:36.654 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 13:49:36.654 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 13:49:36.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Jan-2022 13:49:36.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Jan-2022 13:49:36.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Jan-2022 13:49:36.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Jan-2022 13:49:36.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Jan-2022 13:49:36.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/conf/logging.properties
+13-Jan-2022 13:49:36.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Jan-2022 13:49:36.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx10024m
+13-Jan-2022 13:49:36.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Jan-2022 13:49:36.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Jan-2022 13:49:36.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+13-Jan-2022 13:49:36.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Jan-2022 13:49:36.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 13:49:36.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 13:49:36.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/temp
+13-Jan-2022 13:49:36.657 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+13-Jan-2022 13:49:36.695 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 13:49:36.711 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Jan-2022 13:49:36.728 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 438 ms
+13-Jan-2022 13:49:36.785 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Jan-2022 13:49:36.785 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+13-Jan-2022 13:49:36.802 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war]
+13-Jan-2022 13:49:37.001 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war] has finished in [199] ms
+13-Jan-2022 13:49:37.004 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 13:49:37.011 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 283 ms
+13-Jan-2022 13:51:28.572 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+13-Jan-2022 13:51:28.574 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 13:51:28.581 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Jan-2022 13:51:28.593 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 13:51:28.595 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 13:51:41.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+13-Jan-2022 13:51:41.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+13-Jan-2022 13:51:41.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+13-Jan-2022 13:51:41.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Jan-2022 13:51:41.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-46-generic
+13-Jan-2022 13:51:41.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Jan-2022 13:51:41.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+13-Jan-2022 13:51:41.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.13+8-Ubuntu-0ubuntu1.20.04
+13-Jan-2022 13:51:41.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+13-Jan-2022 13:51:41.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 13:51:41.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 13:51:41.021 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Jan-2022 13:51:41.021 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Jan-2022 13:51:41.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Jan-2022 13:51:41.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Jan-2022 13:51:41.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Jan-2022 13:51:41.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/conf/logging.properties
+13-Jan-2022 13:51:41.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Jan-2022 13:51:41.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx5024m
+13-Jan-2022 13:51:41.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Jan-2022 13:51:41.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Jan-2022 13:51:41.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+13-Jan-2022 13:51:41.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Jan-2022 13:51:41.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 13:51:41.023 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73
+13-Jan-2022 13:51:41.023 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/temp
+13-Jan-2022 13:51:41.023 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+13-Jan-2022 13:51:41.057 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 13:51:41.068 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Jan-2022 13:51:41.078 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 440 ms
+13-Jan-2022 13:51:41.130 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Jan-2022 13:51:41.131 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+13-Jan-2022 13:51:41.150 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war]
+13-Jan-2022 13:51:41.380 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rezk/Documents/Programmierprojekt/Phase_2_Frontend/apache/apache-tomcat-8.5.73/webapps/Planner.war] has finished in [230] ms
+13-Jan-2022 13:51:41.383 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 13:51:41.392 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 314 ms
+13-Jan-2022 13:53:36.582 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+13-Jan-2022 13:53:36.582 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 13:53:36.589 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Jan-2022 13:53:36.599 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Jan-2022 13:53:36.601 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

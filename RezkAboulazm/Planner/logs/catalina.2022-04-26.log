@@ -1,0 +1,274 @@
+26-Apr-2022 10:38:43.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+26-Apr-2022 10:38:43.451 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+26-Apr-2022 10:38:43.451 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+26-Apr-2022 10:38:43.451 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Apr-2022 10:38:43.451 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.13.0-40-generic
+26-Apr-2022 10:38:43.451 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Apr-2022 10:38:43.451 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+26-Apr-2022 10:38:43.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.14.1+1-Ubuntu-0ubuntu1.20.04
+26-Apr-2022 10:38:43.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+26-Apr-2022 10:38:43.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner
+26-Apr-2022 10:38:43.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner
+26-Apr-2022 10:38:43.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Apr-2022 10:38:43.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Apr-2022 10:38:43.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Apr-2022 10:38:43.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Apr-2022 10:38:43.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Apr-2022 10:38:43.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner/conf/logging.properties
+26-Apr-2022 10:38:43.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Apr-2022 10:38:43.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx5024m
+26-Apr-2022 10:38:43.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Apr-2022 10:38:43.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Apr-2022 10:38:43.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Apr-2022 10:38:43.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Apr-2022 10:38:43.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner
+26-Apr-2022 10:38:43.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner
+26-Apr-2022 10:38:43.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner/temp
+26-Apr-2022 10:38:43.454 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+26-Apr-2022 10:38:43.497 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Apr-2022 10:38:43.511 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Apr-2022 10:38:43.527 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 524 ms
+26-Apr-2022 10:38:43.568 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Apr-2022 10:38:43.569 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+26-Apr-2022 10:38:43.583 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner/webapps/Planner.war]
+26-Apr-2022 10:38:43.798 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner/webapps/Planner.war] has finished in [214] ms
+26-Apr-2022 10:38:43.800 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Apr-2022 10:38:43.806 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 278 ms
+26-Apr-2022 10:40:19.095 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+26-Apr-2022 10:40:19.097 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Apr-2022 10:40:19.104 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Apr-2022 10:40:19.113 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Apr-2022 10:40:19.114 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+26-Apr-2022 10:41:43.270 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+26-Apr-2022 10:41:43.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+26-Apr-2022 10:41:43.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+26-Apr-2022 10:41:43.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Apr-2022 10:41:43.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.13.0-40-generic
+26-Apr-2022 10:41:43.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Apr-2022 10:41:43.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+26-Apr-2022 10:41:43.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.14.1+1-Ubuntu-0ubuntu1.20.04
+26-Apr-2022 10:41:43.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+26-Apr-2022 10:41:43.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner
+26-Apr-2022 10:41:43.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner
+26-Apr-2022 10:41:43.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Apr-2022 10:41:43.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Apr-2022 10:41:43.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Apr-2022 10:41:43.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Apr-2022 10:41:43.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Apr-2022 10:41:43.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner/conf/logging.properties
+26-Apr-2022 10:41:43.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Apr-2022 10:41:43.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx5024m
+26-Apr-2022 10:41:43.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Apr-2022 10:41:43.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Apr-2022 10:41:43.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Apr-2022 10:41:43.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Apr-2022 10:41:43.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner
+26-Apr-2022 10:41:43.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner
+26-Apr-2022 10:41:43.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner/temp
+26-Apr-2022 10:41:43.277 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+26-Apr-2022 10:41:43.316 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Apr-2022 10:41:43.327 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Apr-2022 10:41:43.338 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 428 ms
+26-Apr-2022 10:41:43.389 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Apr-2022 10:41:43.389 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+26-Apr-2022 10:41:43.406 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner/webapps/Planner.war]
+26-Apr-2022 10:41:43.637 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner/webapps/Planner.war] has finished in [231] ms
+26-Apr-2022 10:41:43.642 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Apr-2022 10:41:43.651 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 312 ms
+26-Apr-2022 10:45:19.288 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+26-Apr-2022 10:45:19.289 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Apr-2022 10:45:19.296 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Apr-2022 10:45:19.308 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Apr-2022 10:45:19.309 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+26-Apr-2022 11:56:16.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+26-Apr-2022 11:56:16.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+26-Apr-2022 11:56:16.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+26-Apr-2022 11:56:16.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Apr-2022 11:56:16.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.13.0-40-generic
+26-Apr-2022 11:56:16.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Apr-2022 11:56:16.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+26-Apr-2022 11:56:16.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.14.1+1-Ubuntu-0ubuntu1.20.04
+26-Apr-2022 11:56:16.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+26-Apr-2022 11:56:16.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner
+26-Apr-2022 11:56:16.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner
+26-Apr-2022 11:56:16.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Apr-2022 11:56:16.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Apr-2022 11:56:16.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Apr-2022 11:56:16.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Apr-2022 11:56:16.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Apr-2022 11:56:16.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner/conf/logging.properties
+26-Apr-2022 11:56:16.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Apr-2022 11:56:16.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx5024m
+26-Apr-2022 11:56:16.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Apr-2022 11:56:16.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Apr-2022 11:56:16.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Apr-2022 11:56:16.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Apr-2022 11:56:16.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner
+26-Apr-2022 11:56:16.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner
+26-Apr-2022 11:56:16.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner/temp
+26-Apr-2022 11:56:16.846 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+26-Apr-2022 11:56:16.882 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Apr-2022 11:56:16.896 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Apr-2022 11:56:16.911 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 433 ms
+26-Apr-2022 11:56:16.951 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Apr-2022 11:56:16.951 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+26-Apr-2022 11:56:16.966 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner/webapps/Planner.war]
+26-Apr-2022 11:56:17.201 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner/webapps/Planner.war] has finished in [235] ms
+26-Apr-2022 11:56:17.204 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Apr-2022 11:56:17.212 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 300 ms
+26-Apr-2022 11:58:07.219 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Planner]
+26-Apr-2022 11:58:07.232 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner/webapps/Planner.war]
+26-Apr-2022 11:58:07.259 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner/webapps/Planner.war] has finished in [27] ms
+26-Apr-2022 11:58:44.603 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+26-Apr-2022 11:58:44.603 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Apr-2022 11:58:44.610 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Apr-2022 11:58:44.617 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Apr-2022 11:58:44.620 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+26-Apr-2022 11:58:50.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+26-Apr-2022 11:58:50.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+26-Apr-2022 11:58:50.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+26-Apr-2022 11:58:50.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Apr-2022 11:58:50.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.13.0-40-generic
+26-Apr-2022 11:58:50.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Apr-2022 11:58:50.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+26-Apr-2022 11:58:50.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.14.1+1-Ubuntu-0ubuntu1.20.04
+26-Apr-2022 11:58:50.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+26-Apr-2022 11:58:50.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner
+26-Apr-2022 11:58:50.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner
+26-Apr-2022 11:58:50.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Apr-2022 11:58:50.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Apr-2022 11:58:50.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Apr-2022 11:58:50.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Apr-2022 11:58:50.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Apr-2022 11:58:50.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner/conf/logging.properties
+26-Apr-2022 11:58:50.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Apr-2022 11:58:50.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx5024m
+26-Apr-2022 11:58:50.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Apr-2022 11:58:50.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Apr-2022 11:58:50.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Apr-2022 11:58:50.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Apr-2022 11:58:50.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner
+26-Apr-2022 11:58:50.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner
+26-Apr-2022 11:58:50.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner/temp
+26-Apr-2022 11:58:50.702 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+26-Apr-2022 11:58:50.745 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Apr-2022 11:58:50.758 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Apr-2022 11:58:50.775 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 437 ms
+26-Apr-2022 11:58:50.829 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Apr-2022 11:58:50.829 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+26-Apr-2022 11:58:50.844 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner/webapps/Planner.war]
+26-Apr-2022 11:58:51.030 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner/webapps/Planner.war] has finished in [186] ms
+26-Apr-2022 11:58:51.033 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Apr-2022 11:58:51.041 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 265 ms
+26-Apr-2022 12:00:11.041 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Planner]
+26-Apr-2022 12:00:11.045 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [app.InitServlet]
+26-Apr-2022 12:00:12.046 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [app.InitServlet]
+26-Apr-2022 12:00:13.047 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [app.InitServlet]
+26-Apr-2022 12:00:13.158 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Planner] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.base@11.0.14.1/java.io.BufferedReader.readLine(BufferedReader.java:392)
+ app.ReadFile.readFile(ReadFile.java:42)
+ app.InitServlet.doGet(InitServlet.java:35)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:196)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+ org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:624)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+ org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.base@11.0.14.1/java.lang.Thread.run(Thread.java:829)]
+26-Apr-2022 12:00:13.164 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner/webapps/Planner.war]
+26-Apr-2022 12:00:13.218 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner/webapps/Planner.war] has finished in [54] ms
+26-Apr-2022 12:00:19.063 INFO [http-nio-8080-exec-4] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [java.lang.System]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [java.lang.System]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1435)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1423)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1262)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1223)
+		at app.ReadFile.readFile(ReadFile.java:148)
+		at app.InitServlet.doGet(InitServlet.java:35)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:196)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:624)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+26-Apr-2022 12:00:31.824 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+26-Apr-2022 12:00:31.824 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Apr-2022 12:00:31.831 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Apr-2022 12:00:31.838 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Apr-2022 12:00:31.841 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+26-Apr-2022 12:00:33.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+26-Apr-2022 12:00:33.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+26-Apr-2022 12:00:33.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+26-Apr-2022 12:00:33.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Apr-2022 12:00:33.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.13.0-40-generic
+26-Apr-2022 12:00:33.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Apr-2022 12:00:33.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+26-Apr-2022 12:00:33.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.14.1+1-Ubuntu-0ubuntu1.20.04
+26-Apr-2022 12:00:33.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+26-Apr-2022 12:00:33.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner
+26-Apr-2022 12:00:33.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner
+26-Apr-2022 12:00:33.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Apr-2022 12:00:33.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Apr-2022 12:00:33.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Apr-2022 12:00:33.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Apr-2022 12:00:33.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Apr-2022 12:00:33.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner/conf/logging.properties
+26-Apr-2022 12:00:33.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Apr-2022 12:00:33.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx5024m
+26-Apr-2022 12:00:33.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Apr-2022 12:00:33.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Apr-2022 12:00:33.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Apr-2022 12:00:33.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Apr-2022 12:00:33.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner
+26-Apr-2022 12:00:33.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner
+26-Apr-2022 12:00:33.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner/temp
+26-Apr-2022 12:00:33.824 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+26-Apr-2022 12:00:33.872 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Apr-2022 12:00:33.888 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Apr-2022 12:00:33.903 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 450 ms
+26-Apr-2022 12:00:33.960 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Apr-2022 12:00:33.961 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+26-Apr-2022 12:00:33.978 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner/webapps/Planner.war]
+26-Apr-2022 12:00:34.185 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rezk/Documents/Programmierprojekt/phase_neu/RezkAboulazm_Phase2/RezkAboulazm/Planner/webapps/Planner.war] has finished in [207] ms
+26-Apr-2022 12:00:34.188 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Apr-2022 12:00:34.194 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 290 ms
+26-Apr-2022 12:02:58.118 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+26-Apr-2022 12:02:58.119 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Apr-2022 12:02:58.126 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Apr-2022 12:02:58.136 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Apr-2022 12:02:58.138 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
